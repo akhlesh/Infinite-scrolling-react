@@ -1,0 +1,43 @@
+h1, p {
+  font-family: Lato;
+}
+
+.list, .list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-item {
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.list-item .title, .list-item .price {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.list-item.img {
+  justify-self: center;
+  align-self: center;
+}
+
+.list-item img {
+  width: 200px;
+  height: 100px;
+}
+
+.list-item .price {
+  align-self: flex-end;
+}
+
+.list-item .detail-btn {
+  background-color: green;
+  border: 1px solid green;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
